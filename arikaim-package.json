@@ -1,0 +1,16 @@
+{
+    "title": "Units of Measure",
+    "name": "measure",
+    "package-type": "module",
+    "version": "1.0.0",
+    "class": "Measure",
+    "type": "package",
+    "description": "Converting physical units of measure.",
+    "repository": "https://github.com/arikaim/measure-module.git",
+    "require": {
+        "composer": [          
+            "php-units-of-measure/php-units-of-measure"           
+        ]
+    },
+    "help": "https://github.com/PhpUnitsOfMeasure/php-units-of-measure"        
+}

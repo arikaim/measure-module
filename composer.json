@@ -1,0 +1,20 @@
+{
+    "name": "arikaim/measure-module",
+    "description": "Arikam Measure Module",
+    "keywords": ["Module","OAuth","Arikam Measure Module"],
+    "type": "arikaim-module",
+    "license": "GPL-3.0-or-later",
+    "authors": [{
+        "name": "Konstantin Atanasov",
+        "email": "info@arikaim.com",
+        "homepage": "http://arikaim.com"
+    }],
+    "require": {
+        "php": ">=7.1",
+        "arikaim/installer": "*",
+        "php-units-of-measure/php-units-of-measure": "^2.1.0"      
+    },
+    "extra": {     
+        "path": "measure"
+    }
+}
