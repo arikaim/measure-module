@@ -1,7 +1,7 @@
 {
     "name": "arikaim/measure-module",
     "description": "Arikam Measure Module",
-    "keywords": ["Module","OAuth","Arikam Measure Module"],
+    "keywords": ["Module","measure","Arikam Measure Module"],
     "type": "arikaim-module",
     "license": "GPL-3.0-or-later",
     "authors": [{

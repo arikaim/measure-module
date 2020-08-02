@@ -7,7 +7,7 @@
  * @license     http://www.arikaim.com/license
  * 
 */
-namespace Arikaim\Modules\Oauth;
+namespace Arikaim\Modules\Measure;
 
 use PhpUnitsOfMeasure\PhysicalQuantity\Length;
 use PhpUnitsOfMeasure\PhysicalQuantity\Mass;
@@ -53,6 +53,21 @@ class Measure extends Module
         return new Mass($value,$unit);
     }
     
+    /**
+     * Convert mass
+     *
+     * @param mixed $value
+     * @param string $unit
+     * @param string $toUnit
+     * @return mixed
+     */
+    public function convertMass($value, $unit, $toUnit)
+    {
+        $mass = $this->createMass($value,$unit);
+    
+        return $mass->toUnit($toUnit);
+    }
+
     /**
      * Create temperature
      *
