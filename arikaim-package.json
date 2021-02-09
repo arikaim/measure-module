@@ -2,7 +2,7 @@
     "title": "Units of Measure",
     "name": "measure",
     "package-type": "module",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "class": "Measure",
     "type": "package",
     "description": "Converting physical units of measure.",

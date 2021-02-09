@@ -36,7 +36,7 @@ class Measure extends Module
      * @param string $unit
      * @return PhysicalQuantityInterface
      */
-    public function createLength($value, $unit = 'feet')
+    public function createLength($value, string $unit = 'feet')
     {
         return new Length($value,$unit);
     }
@@ -48,7 +48,7 @@ class Measure extends Module
      * @param string $unit
      * @return PhysicalQuantityInterface
      */
-    public function createMass($value, $unit)
+    public function createMass($value, string $unit)
     {
         return new Mass($value,$unit);
     }
@@ -61,7 +61,7 @@ class Measure extends Module
      * @param string $toUnit
      * @return mixed
      */
-    public function convertMass($value, $unit, $toUnit)
+    public function convertMass($value, string $unit, string $toUnit)
     {
         $mass = $this->createMass($value,$unit);
     
@@ -75,7 +75,7 @@ class Measure extends Module
      * @param string $unit
      * @return PhysicalQuantityInterface
      */
-    public function createTemperature($value, $unit)
+    public function createTemperature($value, string $unit)
     {
         return new Temperature($value,$unit);
     }
@@ -87,7 +87,7 @@ class Measure extends Module
      * @param string $unit
      * @return Time
      */
-    public function createTime($value, $unit)
+    public function createTime($value, string $unit)
     {
         return new Time($value,$unit);
     }
@@ -99,7 +99,7 @@ class Measure extends Module
      * @param string $unit
      * @return Volume
      */
-    public function createVolume($value, $unit)
+    public function createVolume($value, string $unit)
     {
         return new Volume($value,$unit);
     }
